@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42 42">
+  <!-- BettingBetway mark: the target from Logo.tsx — a gold ring and a gold
+       centre, for "the better way to pick".
+
+       The header draws it as a full brick-red disc. Here it sits on a barely
+       rounded tile instead: a circular favicon loses its silhouette against a
+       browser tab, and 4/42 matches the 2px radius the rest of the site uses.
+
+       The first <rect fill> is read by app/apple-icon.tsx as the background
+       plate, so it must stay the first element. src/app/favicon.ico is the
+       same artwork rasterised at 16/32/48. -->
+  <rect width="42" height="42" rx="4" fill="#b5301b"/>
+  <circle cx="21" cy="21" r="12" fill="none" stroke="#f0c24b" stroke-width="3.4"/>
+  <circle cx="21" cy="21" r="4.6" fill="#f0c24b"/>
+</svg>
